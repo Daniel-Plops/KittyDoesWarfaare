@@ -1,7 +1,5 @@
 import pygame
-import sys
 import random
-import copy
 import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -98,7 +96,7 @@ class star:
 
 board = [[None]*10 for _ in range(5)]
 HEALTH = 3
-MONEY = 999
+MONEY = 0
 selected = -1
 sec = 0
 font = pygame.font.Font(None, 56)
